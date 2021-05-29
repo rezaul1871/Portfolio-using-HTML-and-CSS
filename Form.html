@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire contact form</title>
+    <style>
+        #home{
+						align-items: center;
+						background-color: #ffffcc;
+						padding: 5px;
+						margin: 25px;
+						width: 5%;
+						border: solid black;
+						
+					}
+        .main {
+        text-align:center;
+    }
+    .marq {
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+    .temp1 {
+       
+        font-size:36px;
+        font-weight:bold;
+        color:white;
+        padding-bottom:10px;
+    }
+    .temp2 {
+        font-size:36px;
+        font-weight:bold;
+        color:yellow;
+        padding-bottom:10px;
+    }
+    </style>
+</head>
+<body>
+
+    <div class = "main">
+        
+        </div>
+
+        <div id="Home">       
+    <form action="input.php" method="POST">
+        <table align="center" border="1">
+            
+
+            <tr>
+                <td>firstname :</td>
+                <td> <input type="text" name="firstName" placeholder="Enter your name"></td>
+            </tr>
+
+            
+            <tr>
+                <td>lastName :</td>
+                <td> <input type="text" name="lastName" placeholder="Enter your name"></td>
+            </tr>
+
+            <tr>
+                <td>Email :</td>
+                <td> <input type="email" name="email" placeholder="Enter your Email"></td>
+            </tr>
+
+            <tr>
+                <td>Phone Number :</td>
+                <td> <input type="number" name="number" placeholder="Enter your number"></td>
+            </tr>
+
+            <tr>
+                <td>gender :</td>
+                <td> <input type="number" name="gender" placeholder="Enter your gender"></td>
+            </tr>
+
+            <tr>
+                <td>Person</td>
+                <td> 
+                    <select name="Person">
+                        <option value="Rezaul karim Refath">Rezaul Karim Refath</option>
+                        <option value="Fatema Akter">Fatema Akter</option>
+                        <option value="Rashedul Islam">Rashedul Islam</option>
+                        <option value="Toukir Ahmed">Toukir Ahmed</option>
+                        <option value="Kawser Hossain">Kawser Hossain</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Description :</td>
+                 <td><input type="text" name="Description" placeholder="Write about Your Project" ></td> 
+                
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+    
+</body>
+</html>
